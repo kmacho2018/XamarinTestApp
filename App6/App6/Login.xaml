@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Login">
+    <ContentPage.Content>
+        <StackLayout Padding="10, 12">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="user.png" WidthRequest="30" HeightRequest="30"></Image>
+                <Label Text="Home Page" FontSize="30"></Label>
+            </StackLayout>
+            <Entry x:Name="boxName" Placeholder="Ingresar tu nombre"></Entry>
+            <Button x:Name="btnSave" Text="Guardar" Clicked="btnSave_Clicked"></Button>
+            <Button x:Name="btnNewPage" Text="New Page" Clicked="btnNewPage_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
